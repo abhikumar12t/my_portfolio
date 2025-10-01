@@ -24,7 +24,7 @@ import WorldAtlash from "../assets/images/worldatlash.png";
 import Restaurant from "../assets/images/Restaurant.png";
 
 // education
-import UpBoard from "../assets/images/UpBoard.jpg";
+import UpBoard from "../assets/images/UPBoard.jpg";
 import diploma from "../assets/images/diploma.jpg";
 import BSC from "../assets/images/BSC.jpg";
 
