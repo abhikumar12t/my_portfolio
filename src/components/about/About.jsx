@@ -9,14 +9,15 @@ const About = () => {
       className="py-4 px-[7vw] md:px-[7vw] lg:px-[10vw] font-sans mt-16 md:mt-24 lg:mt-20 mb-20"
     >
       <div className="flex flex-col-reverse items-center justify-between md:flex-row">
-        <div className="mt-8 text-center md:w-1/2 md:text-left md:mt-0">
-          <h1 className="mb-2 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl">
+        <div className="mt-8  md:w-1/2 md:text-left md:mt-0">
+          <h1 className="mb-2 text-3xl font-bold leading-tight text-white sm:text-4xl md:text-5xl text-center md:text-left">
             Hi, I am
           </h1>
-        
-          <h2 className="mb-4 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl">
-            Abhishek Kumar
-          </h2>
+
+          <h2 className="mb-4 text-4xl font-bold leading-tight text-white sm:text-5xl md:text-6xl text-center md:text-left">
+  Abhishek Kumar
+</h2>
+
 
           <h3 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-[#8245ec] mb-4">
             <span className="text-white">I am a </span>
@@ -47,18 +48,20 @@ const About = () => {
           </p>
 
           {/* Resume Button */}
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block px-8 py-3 mt-5 text-lg font-bold text-white transition duration-300 transform rounded-full hover:scale-105"
-            style={{
-              background: "linear-gradient(90deg, #8245ec, #a855f7)",
-              boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
-            }}
-          >
-            DOWNLOAD CV
-          </a>
+          <div className="flex justify-center md:justify-start">
+            <a
+              href=""
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 mt-5 text-lg font-bold text-white transition duration-300 transform rounded-full hover:scale-105"
+              style={{
+                background: "linear-gradient(90deg, #8245ec, #a855f7)",
+                boxShadow: "0 0 2px #8245ec, 0 0 2px #8245ec, 0 0 40px #8245ec",
+              }}
+            >
+              DOWNLOAD CV
+            </a>
+          </div>
         </div>
 
         {/* Right Side */}
