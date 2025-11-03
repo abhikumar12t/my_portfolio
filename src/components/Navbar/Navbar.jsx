@@ -62,7 +62,7 @@ const Navbar = () => {
                 activeSection === item.id ? "text-[#8245ec]" : ""
               }`}
             >
-              <button onClick={() => handleMenuItemClick(item.id)}>
+              <button className="cursor-pointer" onClick={() => handleMenuItemClick(item.id)}>
                 {item.label}
               </button>
             </li>
@@ -116,7 +116,7 @@ const Navbar = () => {
                   activeSection === item.id ? "text-[#8245ec]" : ""
                 }`}
               >
-                <button onClick={() => handleMenuItemClick(item.id)}>
+                <button className="cursor-pointer"  onClick={() => handleMenuItemClick(item.id)}>
                   {item.label}
                 </button>
               </li>
